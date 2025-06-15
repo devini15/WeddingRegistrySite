@@ -1,23 +1,8 @@
 @font-face {
-    font-family: "Trebuchet MS";
+    font-family: Trebuchet MS;
 }
 
-.ViewButton {
-    background-color:#458fc7;
-    border-radius:28px;
-    border:1px solid #19a6ab;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-size:17px;
-    padding:16px 31px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #283066;
+body{
+    font-family: Trebuchet MS, sans-serif;
 }
-.ViewButton:hover {
-    background-color:#3b2abd;
-}
-.ViewButton:active {
-    position:relative;
-    top:1px;
-}
+
