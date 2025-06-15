@@ -20,7 +20,7 @@
         <h3>${item.Description}</h3>
         <p><strong>Price:</strong> $${item.Price}</p>
         <a href="${item.Link}" target="_blank"><button>View Item</button></a>
-        <button ${item.Purchased ? "disabled" : ""} onclick="markPurchased('${item.Item}', this)">
+        <button class="ViewButton" ${item.Purchased ? "disabled" : ""} onclick="markPurchased('${item.Item}', this)">
           ${item.Purchased ? "Purchased" : "Mark as Purchased"}
         </button>
         <hr/>
