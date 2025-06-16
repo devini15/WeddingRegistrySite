@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
+<div style="text-align:center"><img src="images/Logo.png" alt="Devin & Karina"/></div>
+<hr/>
 <div id="registry"></div>
 
 <script>
@@ -20,8 +22,8 @@
                 div.innerHTML = `
         <h3>${item.Description}</h3>
         <p><strong>Price:</strong> $${item.Price}</p>
-        <a href="${item.Link}" target="_blank"><button>View Item</button></a>
-        <button ${item.Purchased ? "disabled" : ""} onclick="markPurchased('${item.Item}', this)">
+        <a href="${item.Link}" target="_blank"><button class="btn">View Listing</button></a>
+        <button class="btn" ${item.Purchased ? "disabled" : ""} onclick="markPurchased('${item.Item}', this)">
           ${item.Purchased ? "Purchased" : "Mark as Purchased"}
         </button>
         <hr/>

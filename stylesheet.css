@@ -4,5 +4,31 @@
 
 body{
     font-family: Trebuchet MS, sans-serif;
+    background-color: #7799ff
 }
 
+.btn {
+    color: #ffffff;
+    background-color: #007E82;
+
+    border-radius: 25px;
+    outline: none;
+    padding: 10px 35px;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #005457;
+
+}
+.btn:active {
+    background-color: #42F5C2;
+}
+.btn:disabled, button[disabled] {
+    background-color: #777777;
+    color: #000000;
+    cursor: not-allowed;
+}
